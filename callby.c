@@ -1,7 +1,7 @@
 #include<stdio.h>
 int plus1(int a){
     a++;
-    return a;
+    return a;  //return a++就會變成先return a 再++(可以用++a)
 }
 int plus2(int* a){
     printf("in plus2:\n");
