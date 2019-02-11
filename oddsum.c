@@ -1,7 +1,6 @@
 #include<stdio.h>
 int sum =0;
 int sumN(int n){
-    
     if((n%2)==0){
         n=n-1;
     }
